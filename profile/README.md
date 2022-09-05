@@ -7,7 +7,7 @@
 
 ### Quickstart
 
-```sh
+```elisp
 (setq package-archives
       `(,@package-archives
         ("jcs-elpa" . "https://jcs-emacs.github.io/jcs-elpa/packages/")))
