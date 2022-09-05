@@ -7,6 +7,8 @@
 
 ### Quickstart
 
+Add the following to your `init.el` file.
+
 ```elisp
 (setq package-archives
       `(,@package-archives
