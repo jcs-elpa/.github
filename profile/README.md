@@ -10,7 +10,5 @@
 Add the following to your `init.el` file.
 
 ```elisp
-(setq package-archives
-      `(,@package-archives
-        ("jcs-elpa" . "https://jcs-emacs.github.io/jcs-elpa/packages/")))
+(add-to-list 'package-archives '( "jcs-elpa" . "https://jcs-emacs.github.io/jcs-elpa/packages/") t)
 ```
